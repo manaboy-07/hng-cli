@@ -32,7 +32,7 @@ api.interceptors.response.use(
         } catch (refreshError) {
           await clearTokens();
           console.error(
-            "\n❌ Session expired. Please run 'insighta login' again.",
+            "\n Session expired. Please run 'insighta login' again.",
           );
           process.exit(1);
         }

@@ -1,11 +1,8 @@
 import http from "http";
 import open from "open";
 import ora from "ora";
-import fs from "fs";
-import os from "os";
-import path from "path";
-
 import { saveTokens, BACKEND_URL } from "./utils.js";
+
 const PORT = 4242;
 
 export async function login() {
